@@ -1,0 +1,69 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1 id="title">Registration Form</h1>
+    <p id="description">please fill out this form with the required information</p>
+    <form id="survey-form">
+
+      <fieldset>
+      <label id="name-label" for="name"> Name: <input type="text" id="name"  placeholder="shrek" required> </label>
+      
+
+      <label id="email-label" for="email"> Email: <input type="email" id="email" placeholder="shrek123@gmail.com" required></label>
+      
+
+      <label id="number-label" for="number"> Number: <input type="number" id="number" placeholder="07154566762" min="10" max="14"></label>
+      
+      </fieldset>
+
+      <fieldset>
+        <legend>Fill the form (required)</legend>
+        
+      
+      <label for="personal-account"><input type="radio" id="personal-account" name="account" for="survey-form" value="something"> Personal</label>
+      
+      <label for="company-account"><input type="radio" id="company-account" name="account" value="something" for="survey-form" >Company </label>
+      <label>Select your gender
+      <select id="dropdown">
+        <option value="" name="gender">Select an option</option>
+        <option value="1" name="gender">Male</option>
+        <option value="2" name="gender">Female</option>
+      </select>
+      </label>
+
+      </fieldset>
+
+      <fieldset>
+        <label><input type="checkbox" name="question" value="survay"></label>
+        <label><input type="checkbox" name="question" value="survay" for="survay-form"></label>
+        <label><input type="checkbox" name="question" value="survay" for="survay-form"></label>
+      </fieldset>
+
+      <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required for="survay-form" value="something" />I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+      <input type="submit" id="submit" for="survey-form">
+
+      <label>Do you have any suggestions for us?
+        <textarea></textarea>
+      </label>
+
+
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
